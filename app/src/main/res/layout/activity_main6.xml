@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2A2E43"
+    tools:context=".MainActivity6">
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#2A2E43"
+        app:srcCompat="@drawable/i"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/button"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="731dp" />
+
+    <EditText
+        android:id="@+id/editTextTime2"
+        android:layout_width="218dp"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:inputType="time"
+        android:text="00:00:00"
+        android:textColor="#F1EEEE"
+        android:textSize="37sp"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="529dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="98dp"
+        android:layout_height="26dp"
+        android:text="Drive Timer"
+        android:textColor="#F8F6F6"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
